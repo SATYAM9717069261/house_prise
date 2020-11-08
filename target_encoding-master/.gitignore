@@ -1,0 +1,10 @@
+
+\.idea/
+
+target_encoding/__pycache__/
+
+tests/__pycache__/
+
+target_encoding\.egg-info/
+
+dist/
