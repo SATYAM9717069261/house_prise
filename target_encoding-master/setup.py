@@ -16,7 +16,7 @@ setup(
         'numpy==1.16.2',
         'scikit-learn==0.20.3',
     ],
-    url="https://github.com/SATYAM9717069261/target_encoding",
+    url="https://github.com/SATYAM9717069261/house_prise/tree/main/target_encoding-master",
     test_suite='tests',
     classifiers=[
         "Programming Language :: Python :: 3",
