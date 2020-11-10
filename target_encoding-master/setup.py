@@ -8,8 +8,8 @@ setup(
     name='target_encoding',
     version=__version__,
     packages=find_packages(),
-    author='Tushin Kirill',
-    author_email='kirya.tushin1@yandex.ru',
+    author='Satyam Mandal',
+    author_email='satyam.mandal.77@gmail.com',
     include_package_data=True,
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     install_requires=[
