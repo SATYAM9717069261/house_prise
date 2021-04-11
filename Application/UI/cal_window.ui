@@ -1,0 +1,3661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1126</width>
+    <height>861</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="Top_Frame">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">margin:0;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>House Price Prediction</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="Mid_Frame">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QScrollArea" name="Scroll_Area">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="Scroll_Area_Content">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1090</width>
+           <height>3225</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QFrame" name="frame_27">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="inp1_lab">
+               <property name="text">
+                <string>MSSubClass</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_1">
+               <item>
+                <property name="text">
+                 <string>20      1-STORY 1946 &amp; NEWER ALL STYLES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>30      1-STORY 1945 &amp; OLDER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>40      1-STORY W/FINISHED ATTIC ALL AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>45      1-1/2 STORY - UNFINISHED ALL AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>50      1-1/2 STORY FINISHED ALL AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>60      2-STORY 1946 &amp; NEWER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>70      2-STORY 1945 &amp; OLDER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>75      2-1/2 STORY ALL AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>80      SPLIT OR MULTI-LEVEL</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string> 85      SPLIT FOYER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>90      DUPLEX - ALL STYLES AND AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>120      1-STORY PUD (Planned Unit Development) - 1946 &amp; NEWER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>150      1-1/2 STORY PUD - ALL AGES</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>160      2-STORY PUD - 1946 &amp; NEWER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>180      PUD - MULTILEVEL - INCL SPLIT LEV/FOYER</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>190      2 FAMILY CONVERSION - ALL STYLES AND AGES</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_30">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label_25">
+               <property name="text">
+                <string>MSZoning</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_2">
+               <item>
+                <property name="text">
+                 <string>A        Agriculture</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>C        Commercial</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FV       Floating Village Residential</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>I        Industrial</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RH       Residential High Density</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RL       Residential Low Density</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RP       Residential Low Density Park</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RM       Residential Medium Density</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_25">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_20">
+               <property name="toolTip">
+                <string extracomment="Linear feet of street connected to property"/>
+               </property>
+               <property name="toolTipDuration">
+                <number>1</number>
+               </property>
+               <property name="statusTip">
+                <string extracomment="property"/>
+               </property>
+               <property name="text">
+                <string>LotFrontage</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_3">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="inputMethodHints">
+                <set>Qt::ImhPreferNumbers</set>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_26">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_22">
+             <item>
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>LotArea</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_4">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_28">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>Street</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_5">
+               <item>
+                <property name="text">
+                 <string>Grvl     Gravel</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Pave     Paved</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_29">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_21">
+             <item>
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>LotShape</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_6">
+               <item>
+                <property name="text">
+                 <string>Reg      Regular</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>IR3      Irregular</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>IR1      Slightly irregular</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>IR2      Moderately Irregular</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_32">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_23">
+             <item>
+              <widget class="QLabel" name="label_27">
+               <property name="text">
+                <string>LandContour</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_7">
+               <item>
+                <property name="text">
+                 <string>Lvl      Near Flat/Level</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Bnk      Banked - Quick and significant rise from street grade to building</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>HLS      Hillside - Significant slope from side to side</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Low      Depression</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_12">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>Utilities</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_8">
+               <item>
+                <property name="text">
+                 <string>AllPub   All public Utilities (E,G,W,&amp; S)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NoSewr   Electricity, Gas, and Water (Septic Tank)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NoSeWa   Electricity and Gas Only</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ELO      Electricity only</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_24">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>LotConfig</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_9">
+               <item>
+                <property name="text">
+                 <string>Inside   Inside lot</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Corner   Corner lot</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CulDSac  Cul-de-sac</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FR2      Frontage on 2 sides of property</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FR3      Frontage on 3 sides of property</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_31">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_24">
+             <item>
+              <widget class="QLabel" name="label_26">
+               <property name="text">
+                <string>LandSlope</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_10">
+               <item>
+                <property name="text">
+                 <string>Gtl      Gentle slope</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mod      Moderate Slope</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sev      Severe Slope</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_74">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_25">
+             <item>
+              <widget class="QLabel" name="label_69">
+               <property name="text">
+                <string>Neighborhood</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_11">
+               <item>
+                <property name="text">
+                 <string>Blmngtn  Bloomington Heights</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Blueste  Bluestem</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrDale   Briardale</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkSide  Brookside</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ClearCr  Clear Creek</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CollgCr  College Creek</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Crawfor  Crawford</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Edwards  Edwards</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gilbert  Gilbert</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>IDOTRR   Iowa DOT and Rail Road</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>MeadowV  Meadow Village</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mitchel  Mitchell</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Names    North Ames</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NoRidge  Northridge</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NPkVill  Northpark Villa</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NridgHt  Northridge Heights</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NWAmes   Northwest Ames</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>OldTown  Old Town</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>SWISU    South &amp; West of Iowa State University</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sawyer   Sawyer</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>SawyerW  Sawyer West</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Somerst  Somerset</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>StoneBr  Stone Brook</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Timber   Timberland</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Veenker  Veenker</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_73">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_26">
+             <item>
+              <widget class="QLabel" name="label_68">
+               <property name="text">
+                <string>Condition1</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_12">
+               <item>
+                <property name="text">
+                 <string>Artery   Adjacent to arterial street</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Feedr    Adjacent to feeder street</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Norm     Normal</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRNn     Within 200' of North-South Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRAn     Adjacent to North-South Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PosN     Near positive off-site feature--park, greenbelt, etc.</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PosA     Adjacent to postive off-site feature</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRNe     Within 200' of East-West Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRAe     Adjacent to East-West Railroad</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_72">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_27">
+             <item>
+              <widget class="QLabel" name="label_67">
+               <property name="text">
+                <string>Condition2</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_13">
+               <item>
+                <property name="text">
+                 <string>Artery   Adjacent to arterial street</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Feedr    Adjacent to feeder street</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Norm     Normal</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRNn     Within 200' of North-South Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRAn     Adjacent to North-South Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PosN     Near positive off-site feature--park, greenbelt, etc.</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PosA     Adjacent to postive off-site feature</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRNe     Within 200' of East-West Railroad</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RRAe     Adjacent to East-West Railroad</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_71">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_28">
+             <item>
+              <widget class="QLabel" name="label_66">
+               <property name="text">
+                <string>BldgType</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_14">
+               <item>
+                <property name="text">
+                 <string>1Fam     Single-family Detached</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2FmCon   Two-family Conversion; originally built as one-family dwelling</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Duplx    Duplex</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TwnhsE   Townhouse End Unit</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TwnhsI   Townhouse Inside Unit</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_70">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_66">
+             <item>
+              <widget class="QLabel" name="label_65">
+               <property name="text">
+                <string>HouseStyle</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_15">
+               <item>
+                <property name="text">
+                 <string>1Story   One story</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1.5Fin   One and one-half story: 2nd level finished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1.5Unf   One and one-half story: 2nd level unfinished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2Story   Two story</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2.5Fin   Two and one-half story: 2nd level finished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2.5Unf   Two and one-half story: 2nd level unfinished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>SFoyer   Split Foyer</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>SLvl     Split Level</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_69">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_65">
+             <item>
+              <widget class="QLabel" name="label_64">
+               <property name="text">
+                <string>OverallQual</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_16">
+               <item>
+                <property name="text">
+                 <string>10       Very Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>9        Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>8        Very Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>7        Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>6        Above Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5        Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4        Below Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3        Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2        Poor</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1        Very Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_68">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_64">
+             <item>
+              <widget class="QLabel" name="label_63">
+               <property name="text">
+                <string>OverallCond</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_17">
+               <item>
+                <property name="text">
+                 <string>10       Very Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>9        Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>8        Very Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>7        Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>6        Above Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5        Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4        Below Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3        Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2        Poor</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1        Very Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_67">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_63">
+             <item>
+              <widget class="QLabel" name="label_62">
+               <property name="text">
+                <string>YearBuilt</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_18">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_66">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_62">
+             <item>
+              <widget class="QLabel" name="label_61">
+               <property name="text">
+                <string>YearRemodAdd</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_19">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_65">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_61">
+             <item>
+              <widget class="QLabel" name="label_60">
+               <property name="text">
+                <string>RoofStyle</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_20">
+               <item>
+                <property name="text">
+                 <string>Flat     Flat</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gable    Gable</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gambrel  Gabrel (Barn)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Hip      Hip</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mansard  Mansard</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Shed     Shed</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_64">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_60">
+             <item>
+              <widget class="QLabel" name="label_59">
+               <property name="text">
+                <string>RoofMatl</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_21">
+               <item>
+                <property name="text">
+                 <string>ClyTile  Clay or Tile</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CompShg  Standard (Composite) Shingle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Membran  Membrane</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Metal    Metal</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Roll     Roll</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Tar&amp;Grv  Gravel &amp; Tar</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>WdShake  Wood Shakes</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>WdShngl  Wood Shingles</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_63">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_59">
+             <item>
+              <widget class="QLabel" name="label_58">
+               <property name="text">
+                <string>Exterior1st</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_22">
+               <item>
+                <property name="text">
+                 <string>AsbShng  Asbestos Shingles</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>AsphShn  Asphalt Shingles</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkComm  Brick Common</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkFace  Brick Face</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CBlock   Cinder Block</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CemntBd  Cement Board</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>HdBoard  Hard Board</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ImStucc  Imitation Stucco</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>MetalSd  Metal Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Other    Other</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Plywood  Plywood</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PreCast  PreCast</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stone    Stone</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stucco   Stucco</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>VinylSd  Vinyl Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Wd Sdng  Wood Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>WdShing  Wood Shingles</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_62">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_58">
+             <item>
+              <widget class="QLabel" name="label_57">
+               <property name="text">
+                <string>Exterior2nd</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_23">
+               <item>
+                <property name="text">
+                 <string>AsbShng  Asbestos Shingles</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>AsphShn  Asphalt Shingles</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkComm  Brick Common</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkFace  Brick Face</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CBlock   Cinder Block</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CemntBd  Cement Board</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>HdBoard  Hard Board</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ImStucc  Imitation Stucco</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>MetalSd  Metal Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Other    Other</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Plywood  Plywood</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PreCast  PreCast</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stone    Stone</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stucco   Stucco</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>VinylSd  Vinyl Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Wd Sdng  Wood Siding</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>WdShing  Wood Shingles</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_61">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_57">
+             <item>
+              <widget class="QLabel" name="label_56">
+               <property name="text">
+                <string>MasVnrType</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_24">
+               <item>
+                <property name="text">
+                 <string>BrkCmn   Brick Common</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BrkFace  Brick Face</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CBlock   Cinder Block</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>None     None</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stone    Stone</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_60">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_56">
+             <item>
+              <widget class="QLabel" name="label_55">
+               <property name="text">
+                <string>MasVnrArea</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_25">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_59">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_55">
+             <item>
+              <widget class="QLabel" name="label_54">
+               <property name="text">
+                <string>ExterQual</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_26">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Average/Typical</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_58">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_54">
+             <item>
+              <widget class="QLabel" name="label_53">
+               <property name="text">
+                <string>ExterCond</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_27">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Average/Typical</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_57">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_53">
+             <item>
+              <widget class="QLabel" name="label_52">
+               <property name="text">
+                <string>Foundation</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_28">
+               <item>
+                <property name="text">
+                 <string>BrkTil   Brick &amp; Tile</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CBlock   Cinder Block</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PConc    Poured Contrete</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Slab     Slab</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Stone    Stone</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Wood     Wood</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_56">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_52">
+             <item>
+              <widget class="QLabel" name="label_51">
+               <property name="text">
+                <string>BsmtQual</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_29">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent (100+ inches)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good (90-99 inches)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Typical (80-89 inches)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair (70-79 inches)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor (&lt;70 inches</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Basement</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_55">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_51">
+             <item>
+              <widget class="QLabel" name="label_50">
+               <property name="text">
+                <string>BsmtCond</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_30">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Typical - slight dampness allowed</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair - dampness or some cracking or settling</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor - Severe cracking, settling, or wetness</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Basement</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_54">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_50">
+             <item>
+              <widget class="QLabel" name="label_49">
+               <property name="text">
+                <string>BsmtExposure</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_31">
+               <item>
+                <property name="text">
+                 <string>Gd       Good Exposure</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Av       Average Exposure (split levels or foyers typically score average or above)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mn       Mimimum Exposure</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>No       No Exposur</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Basement</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_53">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_49">
+             <item>
+              <widget class="QLabel" name="label_48">
+               <property name="text">
+                <string>BsmtFinType1</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_32">
+               <item>
+                <property name="text">
+                 <string>GLQ      Good Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ALQ      Average Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BLQ      Below Average Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Rec      Average Rec Room</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>LwQ      Low Quality</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Unf      Unfinshed</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Basement</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_52">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_48">
+             <item>
+              <widget class="QLabel" name="label_47">
+               <property name="text">
+                <string>BsmtFinSF1</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_33">
+               <item>
+                <property name="text">
+                 <string>GLQ      Good Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ALQ      Average Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BLQ      Below Average Living Quarters</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Rec      Average Rec Room</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>LwQ      Low Quality</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Unf      Unfinshed</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Basement</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_51">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_47">
+             <item>
+              <widget class="QLabel" name="label_46">
+               <property name="text">
+                <string>BsmtFinSF2</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_34">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_50">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_46">
+             <item>
+              <widget class="QLabel" name="label_45">
+               <property name="text">
+                <string>BsmtUnfSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_35">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_49">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_45">
+             <item>
+              <widget class="QLabel" name="label_44">
+               <property name="text">
+                <string>TotalBsmtSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_36">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_48">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_44">
+             <item>
+              <widget class="QLabel" name="label_43">
+               <property name="text">
+                <string>Heating</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_37">
+               <item>
+                <property name="text">
+                 <string>Floor    Floor Furnace</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>GasA     Gas forced warm air furnace</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>GasW     Gas hot water or steam heat</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Grav     Gravity furnace</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>OthW     Hot water or steam heat other than gas</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Wall     Wall furnace</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_47">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_43">
+             <item>
+              <widget class="QLabel" name="label_42">
+               <property name="text">
+                <string>HeatingQC</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_38">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Average/Typical</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_46">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_42">
+             <item>
+              <widget class="QLabel" name="label_41">
+               <property name="text">
+                <string>CentralAir</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_39">
+               <item>
+                <property name="text">
+                 <string>N        No</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Y        Yes</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_45">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_41">
+             <item>
+              <widget class="QLabel" name="label_40">
+               <property name="text">
+                <string>Electrical</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_40">
+               <item>
+                <property name="text">
+                 <string>SBrkr    Standard Circuit Breakers &amp; Romex</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FuseA    Fuse Box over 60 AMP and all Romex wiring (Average)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FuseF    60 AMP Fuse Box and mostly Romex wiring (Fair)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FuseP    60 AMP Fuse Box and mostly knob &amp; tube wiring (poor)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mix      Mixed</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_44">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_40">
+             <item>
+              <widget class="QLabel" name="label_39">
+               <property name="text">
+                <string>1stFlrSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_41">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_43">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_39">
+             <item>
+              <widget class="QLabel" name="label_38">
+               <property name="text">
+                <string>2ndFlrSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_42">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_42">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_38">
+             <item>
+              <widget class="QLabel" name="label_37">
+               <property name="text">
+                <string>LowQualFinSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_43">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_41">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_37">
+             <item>
+              <widget class="QLabel" name="label_36">
+               <property name="text">
+                <string>GrLivArea</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_44">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_40">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_36">
+             <item>
+              <widget class="QLabel" name="label_35">
+               <property name="text">
+                <string>BsmtFullBath</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_45">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_39">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_35">
+             <item>
+              <widget class="QLabel" name="label_34">
+               <property name="text">
+                <string>BsmtHalfBath</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_46">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_38">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_34">
+             <item>
+              <widget class="QLabel" name="label_33">
+               <property name="text">
+                <string>FullBath</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_47">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_37">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_33">
+             <item>
+              <widget class="QLabel" name="label_32">
+               <property name="text">
+                <string>HalfBath</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_48">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_36">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_32">
+             <item>
+              <widget class="QLabel" name="label_31">
+               <property name="text">
+                <string>BedroomAbvGr</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_49">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_35">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_31">
+             <item>
+              <widget class="QLabel" name="label_30">
+               <property name="text">
+                <string>KitchenAbvGr</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_50">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_34">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_30">
+             <item>
+              <widget class="QLabel" name="label_29">
+               <property name="text">
+                <string>KitchenQual</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_51">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Typical/Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_33">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_29">
+             <item>
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>TotRmsAbvGrd</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_52">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_13">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Functional</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_53">
+               <item>
+                <property name="text">
+                 <string>Typ      Typical Functionality</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Min1     Minor Deductions 1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Min2     Minor Deductions 2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Mod      Moderate Deductions</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Maj1     Major Deductions 1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Maj2     Major Deductions 2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sev      Severely Damaged</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sal      Salvage only</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_14">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Fireplaces</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_54">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>FireplaceQu</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_55">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent - Exceptional Masonry Fireplace</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good - Masonry Fireplace in main level</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair - Prefabricated Fireplace in basement</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor - Ben Franklin Stove</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Fireplace</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_16">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="text">
+                <string>GarageType</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_56">
+               <item>
+                <property name="text">
+                 <string>2Types   More than one type of garage</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Attchd   Attached to home</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Basment  Basement Garage</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>BuiltIn  Built-In (Garage part of house - typically has room above garage)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>CarPort  Car Port</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Detchd   Detached from home</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Garage</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_17">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>GarageFinish</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_57">
+               <item>
+                <property name="text">
+                 <string>Fin      Finished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RFn      Rough Finished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Unf      Unfinished</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Garage</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_18">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>GarageCars</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_58">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_19">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>GarageArea</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_59">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_20">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <item>
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>GarageQual</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_60">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Typical/Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Garage</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_21">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_17">
+             <item>
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>GarageCond</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_61">
+               <item>
+                <property name="text">
+                 <string>Ex       Excellent</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Gd       Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>TA       Typical/Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Fa       Fair</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Po       Poor</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>NA       No Garage</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_22">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <item>
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>PavedDrive</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="inp_drop_62">
+               <item>
+                <property name="text">
+                 <string>Y        Paved</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>P        Partial Pavement</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>N        Dirt/Gravel</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_23">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_19">
+             <item>
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>WoodDeckSF</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="inp_txt_63">
+               <property name="maximumSize">
+                <size>
+                 <width>529</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>type here Question</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="Bottom_Frame">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="clear">
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cal">
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="out_price">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>House Price</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
